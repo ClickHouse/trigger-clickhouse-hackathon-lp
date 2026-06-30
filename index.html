@@ -7,245 +7,236 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <nav>
+    <div class="logo">
+      <span class="logo-ch">ClickHouse</span>
+      <span class="logo-sep">×</span>
+      <span class="logo-tr">Trigger.dev</span>
+    </div>
+    <div class="nav-links">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#prizes" class="nav-link">Prizes</a>
+      <a href="#judges" class="nav-link">Judges</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+    </div>
+  </nav>
 
-<div class="browser">
-  <div class="browser-bar">
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <span class="url">clickhouse-trigger-hackathon.dev</span>
+  <main>
+
+  <section class="hero" id="about">
+    <div class="hero-glow"></div>
+    <div class="hero-glow-2"></div>
+    <div class="eyebrow">
+      Online
+      <span class="eyebrow-dot"></span>
+      July 17–23, 2026
+      <span class="eyebrow-dot"></span>
+      NAMER + EMEA
+    </div>
+    <h1 class="hero-title">
+      Build a smarter<br>
+      <span class="accent-y">AI agent.</span><br>
+      <span class="muted">Win something nice.</span>
+    </h1>
+    <p class="hero-sub">A one-week hackathon for developers who want to build production-quality AI agent chat experiences — with real data underneath.</p>
+    <div class="pills">
+      <span class="pill">1 week to build</span>
+      <span class="pill">Application required</span>
+      <span class="pill">NAMER + EMEA</span>
+      <span class="pill">EUR 10,000 prize pool</span>
+      <span class="pill">Free cloud credits</span>
+    </div>
+    <div class="cta-group">
+     <a href="https://luma.com/event/evt-WJWS9oQtCsbX0hT" class="luma-checkout--button" data-luma-action="checkout" data-luma-event-id="evt-WJWS9oQtCsbX0hT">
+    Register for Event
+    </a>
+
+      <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
+    </div>
+  </section>
+
+  <div class="ticker">
+    <div class="ticker-item">
+      <span class="ticker-val">15+</span>
+      judges
+    </div>
+    <div class="ticker-item">
+      <span class="ticker-val">1 week</span>
+      build window
+    </div>
+    <div class="ticker-item">
+      <span class="ticker-val">Jul 23</span>
+      deadline (AoE)
+    </div>
+    <div class="ticker-item">
+      <span class="ticker-val">EUR 10K</span>
+      prize pool
+    </div>
   </div>
-  <div class="site">
 
-    <nav>
-      <div class="logo">
-        <span class="logo-ch">ClickHouse</span>
-        <span class="logo-sep">×</span>
-        <span class="logo-tr">Trigger.dev</span>
+  <section class="theme">
+    <div>
+      <div class="section-label">The theme</div>
+      <h2 class="theme-title">AI Agent Chat Build</h2>
+      <p class="theme-body">Build a chat agent that changes how people interact with information. Trigger.dev handles the orchestration and background jobs — your solution must use Trigger.dev's <code>chat.agent()</code>. ClickHouse powers the real-time data layer as your primary database. Both are required — that's the point.</p>
+    </div>
+    <div class="chat-mock">
+      <div class="chat-topbar">
+        <div class="chat-dot"></div>
+        <span class="chat-title">agent session active</span>
       </div>
-      <div class="nav-links">
-        <a href="#about" class="nav-link">About</a>
-        <a href="#prizes" class="nav-link">Prizes</a>
-        <a href="#judges" class="nav-link">Judges</a>
-        <a href="#faq" class="nav-link">FAQ</a>
+      <div>
+        <div class="chat-label">user</div>
+        <div class="chat-bubble user">Show me anomalies from the last hour</div>
       </div>
-    </nav>
-
-    <section class="hero" id="about">
-      <div class="hero-glow"></div>
-      <div class="hero-glow-2"></div>
-      <div class="eyebrow">
-        Online
-        <span class="eyebrow-dot"></span>
-        July 17–23, 2026
-        <span class="eyebrow-dot"></span>
-        NAMER + EMEA
-      </div>
-      <h1 class="hero-title">
-        Build a smarter<br>
-        <span class="accent-y">AI agent.</span><br>
-        <span class="muted">Win something nice.</span>
-      </h1>
-      <p class="hero-sub">A one-week hackathon for developers who want to build production-quality AI agent chat experiences — with real data underneath.</p>
-      <div class="pills">
-        <span class="pill">1 week to build</span>
-        <span class="pill">Application required</span>
-        <span class="pill">NAMER + EMEA</span>
-        <span class="pill">EUR 10,000 prize pool</span>
-        <span class="pill">Free cloud credits</span>
-      </div>
-      <div class="cta-group">
-       <a href="https://luma.com/event/evt-WJWS9oQtCsbX0hT" class="luma-checkout--button" data-luma-action="checkout" data-luma-event-id="evt-WJWS9oQtCsbX0hT">
-      Register for Event
-      </a>
-
-        <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
-      </div>
-    </section>
-
-    <div class="ticker">
-      <div class="ticker-item">
-        <span class="ticker-val">15+</span>
-        judges
-      </div>
-      <div class="ticker-item">
-        <span class="ticker-val">1 week</span>
-        build window
-      </div>
-      <div class="ticker-item">
-        <span class="ticker-val">Jul 23</span>
-        deadline (AoE)
-      </div>
-      <div class="ticker-item">
-        <span class="ticker-val">EUR 10K</span>
-        prize pool
+      <div>
+        <div class="chat-label">agent</div>
+        <div class="chat-bubble agent">Found 3 spikes in your event stream. Running deeper analysis now...</div>
+        <div class="chat-meta">
+          <span class="chat-tag y">clickhouse query ✓</span>
+          <span class="chat-tag p">chat.agent() running</span>
+        </div>
       </div>
     </div>
+  </section>
 
-    <section class="theme">
-      <div>
-        <div class="section-label">The theme</div>
-        <h2 class="theme-title">AI Agent Chat Build</h2>
-        <p class="theme-body">Build a chat agent that changes how people interact with information. Trigger.dev handles the orchestration and background jobs — your solution must use Trigger.dev's <code>chat.agent()</code>. ClickHouse powers the real-time data layer as your primary database. Both are required — that's the point.</p>
+  <section class="stack">
+    <div class="section-label">Required stack</div>
+    <div class="tools">
+      <div class="tool ch">
+        <div class="tool-logo ch">CH</div>
+        <div class="tool-name">ClickHouse</div>
+        <div class="tool-role">Primary database, real-time data layer</div>
       </div>
-      <div class="chat-mock">
-        <div class="chat-topbar">
-          <div class="chat-dot"></div>
-          <span class="chat-title">agent session active</span>
-        </div>
-        <div>
-          <div class="chat-label">user</div>
-          <div class="chat-bubble user">Show me anomalies from the last hour</div>
-        </div>
-        <div>
-          <div class="chat-label">agent</div>
-          <div class="chat-bubble agent">Found 3 spikes in your event stream. Running deeper analysis now...</div>
-          <div class="chat-meta">
-            <span class="chat-tag y">clickhouse query ✓</span>
-            <span class="chat-tag p">chat.agent() running</span>
-          </div>
-        </div>
+      <div class="plus-sign">+</div>
+      <div class="tool tr">
+        <div class="tool-logo tr">TR</div>
+        <div class="tool-name">Trigger.dev</div>
+        <div class="tool-role">chat.agent() orchestration</div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="stack">
-      <div class="section-label">Required stack</div>
-      <div class="tools">
-        <div class="tool ch">
-          <div class="tool-logo ch">CH</div>
-          <div class="tool-name">ClickHouse</div>
-          <div class="tool-role">Primary database, real-time data layer</div>
-        </div>
-        <div class="plus-sign">+</div>
-        <div class="tool tr">
-          <div class="tool-logo tr">TR</div>
-          <div class="tool-name">Trigger.dev</div>
-          <div class="tool-role">chat.agent() orchestration</div>
-        </div>
+  <section class="prizes" id="prizes">
+    <div class="section-label">Prizes — EUR 10,000 total pool</div>
+    <div class="prize-grid">
+      <div class="prize-card gold">
+        <div class="prize-rank gold-text">🥇 Grand prize — EUR 6,000</div>
+        <div class="prize-name">Ultimate desk setup bundle</div>
+        <div class="prize-desc">iMac · iPad Air · AirPods Max · Apple Watch accessories + $2K ClickHouse Cloud credits + $2K Trigger.dev credits</div>
       </div>
-    </section>
+      <div class="prize-card">
+        <div class="prize-rank">🥈 Runner-up — EUR 2,000</div>
+        <div class="prize-name">Dev bundle</div>
+        <div class="prize-desc">MacBook Air · AirPods Pro · accessories + $1K ClickHouse Cloud credits + $1K Trigger.dev credits</div>
+      </div>
+      <div class="prize-card">
+        <div class="prize-rank">⭐ Best OLTP + OLAP — EUR 1,000</div>
+        <div class="prize-name">Premium Lego set</div>
+        <div class="prize-desc">Titanic, Lord of the Rings, or Star Trek + $500 ClickHouse Cloud credits + $500 Trigger.dev credits</div>
+      </div>
+      <div class="prize-card">
+        <div class="prize-rank">🎉 Social raffle — EUR 1,000</div>
+        <div class="prize-name">Swag box</div>
+        <div class="prize-desc">Personalized ClickHouse + Trigger.dev branding — open to all registered participants</div>
+      </div>
+    </div>
+  </section>
 
-    <section class="prizes" id="prizes">
-      <div class="section-label">Prizes — EUR 10,000 total pool</div>
-      <div class="prize-grid">
-        <div class="prize-card gold">
-          <div class="prize-rank gold-text">🥇 Grand prize — EUR 6,000</div>
-          <div class="prize-name">Ultimate desk setup bundle</div>
-          <div class="prize-desc">iMac · iPad Air · AirPods Max · Apple Watch accessories + $2K ClickHouse Cloud credits + $2K Trigger.dev credits</div>
-        </div>
-        <div class="prize-card">
-          <div class="prize-rank">🥈 Runner-up — EUR 2,000</div>
-          <div class="prize-name">Dev bundle</div>
-          <div class="prize-desc">MacBook Air · AirPods Pro · accessories + $1K ClickHouse Cloud credits + $1K Trigger.dev credits</div>
-        </div>
-        <div class="prize-card">
-          <div class="prize-rank">⭐ Best OLTP + OLAP — EUR 1,000</div>
-          <div class="prize-name">Premium Lego set</div>
-          <div class="prize-desc">Titanic, Lord of the Rings, or Star Trek + $500 ClickHouse Cloud credits + $500 Trigger.dev credits</div>
-        </div>
-        <div class="prize-card">
-          <div class="prize-rank">🎉 Social raffle — EUR 1,000</div>
-          <div class="prize-name">Swag box</div>
-          <div class="prize-desc">Personalized ClickHouse + Trigger.dev branding — open to all registered participants</div>
+  <section class="timeline">
+    <div class="section-label">Timeline</div>
+    <div class="tl-rows">
+      <div class="tl-row">
+        <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
+        <div class="tl-content">
+          <div class="tl-date">Jun 29</div>
+          <div class="tl-text">Registrations open</div>
+          <div class="tl-sub">Apply via Luma</div>
         </div>
       </div>
-    </section>
-
-    <section class="timeline">
-      <div class="section-label">Timeline</div>
-      <div class="tl-rows">
-        <div class="tl-row">
-          <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
-          <div class="tl-content">
-            <div class="tl-date">Jun 29</div>
-            <div class="tl-text">Registrations open</div>
-            <div class="tl-sub">Apply via Luma</div>
-          </div>
-        </div>
-        <div class="tl-row">
-          <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
-          <div class="tl-content">
-            <div class="tl-date">Jul 16</div>
-            <div class="tl-text">Applications close</div>
-            <div class="tl-sub">Accepted teams notified</div>
-          </div>
-        </div>
-        <div class="tl-row">
-          <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
-          <div class="tl-content">
-            <div class="tl-date">Jul 17, 09:00 CET</div>
-            <div class="tl-text">Problem statement revealed</div>
-            <div class="tl-sub">Build window opens</div>
-          </div>
-        </div>
-        <div class="tl-row">
-          <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
-          <div class="tl-content">
-            <div class="tl-date">Jul 23</div>
-            <div class="tl-text">Submissions close</div>
-            <div class="tl-sub">Midnight, Anywhere on Earth (AoE) — no extensions</div>
-          </div>
-        </div>
-        <div class="tl-row">
-          <div class="tl-spine"><div class="tl-dot live"></div></div>
-          <div class="tl-content">
-            <div class="tl-date">Jul 29</div>
-            <div class="tl-text">Winners announced</div>
-            <div class="tl-sub">Closing ceremony</div>
-          </div>
+      <div class="tl-row">
+        <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
+        <div class="tl-content">
+          <div class="tl-date">Jul 16</div>
+          <div class="tl-text">Applications close</div>
+          <div class="tl-sub">Accepted teams notified</div>
         </div>
       </div>
-    </section>
-
-    <section class="judges-placeholder" id="judges">
-      <div class="section-label">Judges</div>
-      <div class="placeholder-box">
-        <div class="placeholder-icon">👤</div>
-        <div class="placeholder-title">Judges to be announced</div>
-        <div class="placeholder-sub">Want to help evaluate submissions? Applications are open.</div>
-        <a href="https://forms.gle/7hXSFbBH7ns22JLx5" target="_blank" class="judge-cta">Apply to be a judge</a>
-      </div>
-    </section>
-
-    <section class="faq" id="faq">
-      <div class="section-label">FAQ</div>
-      <div class="faq-list">
-        <div class="faq-item">
-          <div class="faq-q">Who can apply?</div>
-          <div class="faq-a">Professional developers, 18+, residing in the US, Canada, UK, or an EU country. Solo or teams up to 5. This is an application-based event — we're looking for awesome builders</div>
-        </div>
-        <div class="faq-item">
-          <div class="faq-q">Do I need to use both tools?</div>
-          <div class="faq-a">Yes. ClickHouse must be your primary database, and your solution must use Trigger.dev's chat.agent() as the orchestration layer. Submissions that don't meaningfully use both will be disqualified. You'll receive free cloud credits for both upon acceptance.</div>
-        </div>
-        <div class="faq-item">
-          <div class="faq-q">What do I submit?</div>
-          <div class="faq-a">A demo video (YouTube max 5 minutes — skip the intro, open directly with a screen recording of your working product) plus a public GitHub repo under an MIT or Apache 2.0 license. Submitted via the official submission portal, shared on July 17.</div>
-        </div>
-        <div class="faq-item">
-          <div class="faq-q">How does the application work?</div>
-          <div class="faq-a">Short application via Luma. We ask about your background, prior hackathon experience, and whether you've built AI agents before. Registration closes July 16 — accepted teams are notified by email.</div>
-        </div>
-        <div class="faq-item">
-          <div class="faq-q">When should I set up my accounts?</div>
-          <div class="faq-a">As soon as you're accepted — before July 17. Cloud credit provisioning can take up to 48 hours, so don't wait until the build window opens.</div>
-        </div>
-        <div class="faq-item">
-          <div class="faq-q">Is there support during the event?</div>
-          <div class="faq-a">Yes — a panel of 15+ judges and async support channels staffed by ClickHouse and Trigger.dev engineers throughout the week. AI coding assistants like Copilot, Cursor, Claude, and ChatGPT are explicitly permitted and encouraged.</div>
+      <div class="tl-row">
+        <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
+        <div class="tl-content">
+          <div class="tl-date">Jul 17, 09:00 CET</div>
+          <div class="tl-text">Problem statement revealed</div>
+          <div class="tl-sub">Build window opens</div>
         </div>
       </div>
-    </section>
+      <div class="tl-row">
+        <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
+        <div class="tl-content">
+          <div class="tl-date">Jul 23</div>
+          <div class="tl-text">Submissions close</div>
+          <div class="tl-sub">Midnight, Anywhere on Earth (AoE) — no extensions</div>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-spine"><div class="tl-dot live"></div></div>
+        <div class="tl-content">
+          <div class="tl-date">Jul 29</div>
+          <div class="tl-text">Winners announced</div>
+          <div class="tl-sub">Closing ceremony</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-      <span class="footer-text">Co-hosted by ClickHouse and Trigger.dev · 2026</span>
-      <div class="footer-links">
-        <button class="footer-link footer-btn" onclick="openModal()">T&amp;Cs</button>
-      <a href="mailto:triggerclickhousehackathon-support@clickhouse.com" class="footer-link">Contact: triggerclickhousehackathon-support@clickhouse.com</a></div>
-    </footer>
+  <section class="judges-placeholder" id="judges">
+    <div class="section-label">Judges</div>
+    <div class="placeholder-box">
+      <div class="placeholder-icon">👤</div>
+      <div class="placeholder-title">Judges to be announced</div>
+      <div class="placeholder-sub">Want to help evaluate submissions? Applications are open.</div>
+      <a href="https://forms.gle/7hXSFbBH7ns22JLx5" target="_blank" class="judge-cta">Apply to be a judge</a>
+    </div>
+  </section>
 
-  </div>
-</div>
+  <section class="faq" id="faq">
+    <div class="section-label">FAQ</div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q">Who can apply?</div>
+        <div class="faq-a">Professional developers, 18+, residing in the US, Canada, UK, or an EU country. Solo or teams up to 5. This is an application-based event — we're looking for awesome builders</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Do I need to use both tools?</div>
+        <div class="faq-a">Yes. ClickHouse must be your primary database, and your solution must use Trigger.dev's chat.agent() as the orchestration layer. Submissions that don't meaningfully use both will be disqualified. You'll receive free cloud credits for both upon acceptance.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">What do I submit?</div>
+        <div class="faq-a">A demo video (YouTube max 5 minutes — skip the intro, open directly with a screen recording of your working product) plus a public GitHub repo under an MIT or Apache 2.0 license. Submitted via the official submission portal, shared on July 17.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">How does the application work?</div>
+        <div class="faq-a">Short application via Luma. We ask about your background, prior hackathon experience, and whether you've built AI agents before. Registration closes July 16 — accepted teams are notified by email.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">When should I set up my accounts?</div>
+        <div class="faq-a">As soon as you're accepted — before July 17. Cloud credit provisioning can take up to 48 hours, so don't wait until the build window opens.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Is there support during the event?</div>
+        <div class="faq-a">Yes — a panel of 15+ judges and async support channels staffed by ClickHouse and Trigger.dev engineers throughout the week. AI coding assistants like Copilot, Cursor, Claude, and ChatGPT are explicitly permitted and encouraged.</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span class="footer-text">Co-hosted by ClickHouse and Trigger.dev · 2026</span>
+    <div class="footer-links">
+      <button class="footer-link footer-btn" onclick="openModal()">T&amp;Cs</button>
+    <a href="mailto:triggerclickhousehackathon-support@clickhouse.com" class="footer-link">Contact: triggerclickhousehackathon-support@clickhouse.com</a></div>
+  </footer>
+
+</main>
 
 <!-- T&Cs MODAL -->
 <div id="tcs-modal" class="modal-overlay" onclick="handleOverlayClick(event)">
