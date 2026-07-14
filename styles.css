@@ -553,7 +553,8 @@
 .judges-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
 .judges-grid.judges-grid-featured { grid-template-columns: repeat(5, 1fr); gap: 12px; }
 .judge-card { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 18px 12px; border-radius: var(--radius-lg); border: 0.5px solid var(--border); background: var(--bg-2); text-decoration: none; transition: border-color 0.15s, background 0.15s; gap: 8px; }
-.judge-card:hover, .judge-card:focus-visible { border-color: var(--border-mid); background: var(--bg-3); outline: 2px solid var(--border-mid); outline-offset: 2px; }
+.judge-card:hover { border-color: var(--border-mid); background: var(--bg-3); }
+.judge-card:focus-visible { background: var(--bg-3); outline: 2px solid var(--purple); outline-offset: 2px; }
 .judge-card-featured { border-color: rgba(255,255,255,0.15); background: var(--bg-3); }
 .judge-card-featured .judge-avatar { width: 64px; height: 64px; font-size: 15px; }
 .judge-card-featured .judge-name { font-size: 14px; }
